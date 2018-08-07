@@ -1,5 +1,5 @@
 import React from 'react'
-import './_Movie.scss'
+import './_movie.scss'
 
 export class Movie extends React.Component {
   render() {
