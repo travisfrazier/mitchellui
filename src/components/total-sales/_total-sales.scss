@@ -1,0 +1,33 @@
+@import '../../pages/partials/variables';
+
+.totalSales {
+  background-color: #ffffff;
+  padding: 1rem;
+  font-size: $font-s;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    &--value {
+      @media only screen and (max-width: 890px) {
+        flex-direction: column;
+      }
+    }
+  }
+  &__title {
+    font-size: $font-l;
+    font-weight: $font-bold;
+  }
+  &__results {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    //grid-auto-rows: auto;
+    @media only screen and (max-width: 890px) {
+      grid-template-columns: auto;
+    }
+  }
+  &__meters {
+    @media only screen and (max-width: 890px) {
+      display: flex;
+    }
+  }
+}

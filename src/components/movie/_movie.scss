@@ -1,0 +1,30 @@
+@import '../../pages/partials/variables';
+
+.movie {
+  background-color: #ffffff;
+  padding: 2rem;
+  &__title {
+    font-size: $font-xl;
+    font-weight: $font-bold;
+    margin-bottom: 1rem;
+  }
+  &__release {
+    margin-bottom: 1.75rem;
+  }
+  &__date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    font-size: $font-m;
+    .movie__button {
+      background-color: #2359ce;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      font-size: $font-r;
+      padding: 0.75rem;
+      margin-right: 2.25rem;
+    }
+  }
+}
