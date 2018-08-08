@@ -35,7 +35,7 @@ strong {
   grid-gap: 2rem;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: minmax(275px, auto);
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 666px) {
     grid-template-columns: 1fr;
   }
 }
