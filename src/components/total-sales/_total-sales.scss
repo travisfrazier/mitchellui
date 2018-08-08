@@ -5,7 +5,7 @@
   padding: 1rem;
   font-size: $font-s;
   overflow: hidden;
-  @media only screen and (max-width: 715px) {
+  @media only screen and (max-width: 890px) {
     line-height: 1.35;
   }
   @media only screen and (max-width: 345px) {
@@ -15,17 +15,16 @@
   &__content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     @media only screen and (max-width: 715px) {
       flex-direction: column;
       flex-wrap: wrap;
+      align-items: flex-start;
     }
     &--value {
       @media only screen and (max-width: 890px) {
         flex-direction: column;
-      }
-      @media only screen and (max-width: 737px) and (min-width: 666px) {
-        font-size: $font-xxs;
-        line-height: 1.45;
+        align-items: flex-start;
       }
     }
   }
