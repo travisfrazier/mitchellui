@@ -9,7 +9,8 @@ export const TotalSales = props => (
       <h2 className="totalSales__title">Total Movie Sales</h2>
       <span>
         Average value of sales in the past month in:{' '}
-        <strong>United States</strong>
+        <strong className="ipad">United States</strong>
+        <strong className="iphone">USA</strong>
       </span>
     </div>
     <div className="totalSales__content">
@@ -26,7 +27,7 @@ export const TotalSales = props => (
     <div className="totalSales__content totalSales__content--value">
       <span>
         <strong>Analysis of sales: </strong>The value has been changed over
-        time, and last month reach a level over $50,000.
+        time, and last month reached a level over $50,000.
       </span>
       <span>Update on 16.07.2015</span>
     </div>
