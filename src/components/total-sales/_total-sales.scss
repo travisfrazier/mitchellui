@@ -8,6 +8,10 @@
   @media only screen and (max-width: 715px) {
     line-height: 1.35;
   }
+  @media only screen and (max-width: 345px) {
+    font-size: $font-xs;
+    padding: 0.5rem;
+  }
   &__content {
     display: flex;
     justify-content: space-between;
@@ -20,7 +24,7 @@
         flex-direction: column;
       }
       @media only screen and (max-width: 737px) and (min-width: 666px) {
-        font-size: $font-xs;
+        font-size: $font-xxs;
         line-height: 1.45;
       }
     }
