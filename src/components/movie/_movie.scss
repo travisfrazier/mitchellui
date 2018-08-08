@@ -1,6 +1,6 @@
 @import '../../pages/partials/variables';
 
-.movie {
+.mov {
   background-color: #ffffff;
   padding: 2rem;
   &__title {
@@ -10,6 +10,7 @@
   }
   &__release {
     margin-bottom: 1.75rem;
+    font-size: $font-s;
   }
   &__date {
     display: flex;
@@ -17,7 +18,7 @@
     align-items: center;
     margin-bottom: 1.25rem;
     font-size: $font-m;
-    .movie__button {
+    .mov__button {
       background-color: #2359ce;
       color: #ffffff;
       border: none;

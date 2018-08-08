@@ -1,6 +1,6 @@
 @import '../../pages/partials/variables';
 
-.totalSales {
+.totSales {
   background-color: #ffffff;
   padding: 1rem;
   font-size: $font-s;
@@ -44,12 +44,12 @@
   }
 }
 
-.ipad {
+.totSales__loc--tab {
   @media only screen and (max-width: 715px) {
     display: none;
   }
 }
-.iphone {
+.totSales__loc--pho {
   display: none;
   @media only screen and (max-width: 715px) {
     display: inline;
