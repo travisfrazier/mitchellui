@@ -28,7 +28,8 @@
   &__results {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    //grid-auto-rows: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     @media only screen and (max-width: 890px) {
       grid-template-columns: auto;
     }
