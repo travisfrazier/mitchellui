@@ -1,12 +1,22 @@
 import React from 'react'
 import './_order-count.scss'
 
-export const OrderCount = props => (
-  <div className="orderCount">
-    <p className="orderCount__total">2,346</p>
-    <span className="orderCount__movie">Total orders - Movie 1</span>
-    <div className="orderCount__meter">
-      <span className="orderCount__progress" />
-    </div>
-  </div>
-)
+export class OrderCount extends React.Component {
+  render() {
+    const styles = {
+      width: this.props.width,
+      backgroundColor: this.props.color,
+    }
+    return (
+      <div className="orderCount">
+        <p className="orderCount__total">{this.props.total}</p>
+        <span className="orderCount__movie">
+          Total orders - {this.props.title}
+        </span>
+        <div className="orderCount__meter">
+          <span style={styles} className="orderCount__progress" />
+        </div>
+      </div>
+    )
+  }
+}

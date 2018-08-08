@@ -19,8 +19,8 @@ export const TotalSales = props => (
     <div className="totalSales__results">
       <Graph />
       <div className="totalSales__meters">
-        <OrderCount />
-        <OrderCount />
+        <OrderCount title="Movie 1" total="2,346" color="#adadad" width="40%" />
+        <OrderCount title="Movie 2" total="4,422" color="#209787" width="60%" />
       </div>
     </div>
     <div className="totalSales__content totalSales__content--value">
