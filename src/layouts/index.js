@@ -1,8 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { TotalSales } from '../components/total-sales/total-sales'
-import { Movie } from '../components/movie/movie'
 
 const Layout = ({ children, data }) => (
   <div>

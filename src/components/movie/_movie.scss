@@ -1,7 +1,7 @@
 @import '../../pages/partials/variables';
 
 .mov {
-  background-color: #ffffff;
+  background-color: $color-light;
   padding: 2rem;
   &__title {
     font-size: $font-xl;
@@ -19,8 +19,8 @@
     margin-bottom: 1.25rem;
     font-size: $font-m;
     .mov__button {
-      background-color: #2359ce;
-      color: #ffffff;
+      background-color: $color-button;
+      color: $color-light;
       border: none;
       border-radius: 5px;
       font-size: $font-r;

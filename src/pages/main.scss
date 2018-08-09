@@ -7,16 +7,17 @@ html,
 body {
   box-sizing: border-box;
   margin: 0;
-  background-color: #e4e4e4;
+  background-color: $color-bg;
   font-family: 'Open Sans', sans-serif;
   color: $font-color;
   text-size-adjust: none;
 }
 
 strong {
-  font-weight: 600;
+  font-weight: $font-bold;
 }
 
+//Main Layout Styles ---------- //
 .main__wrapper {
   max-width: 960px;
   margin: 0 auto;

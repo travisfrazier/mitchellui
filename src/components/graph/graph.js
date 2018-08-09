@@ -23,7 +23,7 @@ const data = [
 export class Graph extends React.Component {
   render() {
     return (
-      <div className="graph-container">
+      <div className="graph__container">
         <ResponsiveContainer>
           <AreaChart
             width={700}
@@ -50,16 +50,16 @@ export class Graph extends React.Component {
               dataKey="uv"
               name="Movie 1"
               stroke="#adadad"
-              fillOpacity={1}
-              fill="#adadadc7"
+              fillOpacity={0.7}
+              fill="#adadad"
             />
             <Area
               type="monotone"
               dataKey="pv"
               name="Movie 2"
               stroke="#209787"
-              fillOpacity={1}
-              fill="#209787a2"
+              fillOpacity={0.5}
+              fill="#209787"
             />
           </AreaChart>
         </ResponsiveContainer>
