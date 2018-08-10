@@ -10,7 +10,8 @@ body {
   background-color: $color-bg;
   font-family: 'Open Sans', sans-serif;
   color: $font-color;
-  text-size-adjust: none;
+  //Prevents IOS safari from scaling text sizes
+  -webkit-text-size-adjust: 100%;
 }
 
 strong {
