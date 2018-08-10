@@ -1,6 +1,6 @@
 import React from 'react'
-import { TotalSales } from '../components/total-sales/total-sales'
-import { Movie } from '../components/movie/movie'
+import TotalSales from '../components/total-sales/total-sales'
+import Movie from '../components/movie/movie'
 import './main.scss'
 
 const IndexPage = () => (

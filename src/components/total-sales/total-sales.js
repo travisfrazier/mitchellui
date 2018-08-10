@@ -1,9 +1,9 @@
 import React from 'react'
 import './_total-sales.scss'
-import { Graph } from '../graph/graph'
-import { OrderCount } from '../order-count/order-count'
+import Graph from '../graph/graph'
+import OrderCount from '../order-count/order-count'
 
-export const TotalSales = props => (
+const TotalSales = props => (
   <section className="totSales">
     <div className="totSales__content">
       <h2 className="totSales__title">Total Movie Sales</h2>
@@ -33,3 +33,5 @@ export const TotalSales = props => (
     </div>
   </section>
 )
+
+export default TotalSales
