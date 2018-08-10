@@ -12,7 +12,7 @@ const Movie = props => (
       <button className="mov__button">Buy Tickets</button>
     </div>
     <div className="mov__date">
-      <span>May 3 2015</span>
+      <span>May 4 2015</span>
       <button className="mov__button">Buy Tickets</button>
     </div>
   </section>
