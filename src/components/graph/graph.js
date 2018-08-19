@@ -9,7 +9,7 @@ import {
   Tooltip,
   ResponsiveContainer
 } from 'recharts'
-import variables from '../../pages/partials/_variables.scss'
+import graphColors from '../../pages/partials/_graph-colors'
 
 class Graph extends React.Component {
   state = {
@@ -42,17 +42,17 @@ class Graph extends React.Component {
               type="monotone"
               dataKey="uv"
               name="Movie 1"
-              stroke={variables.graphColor1}
+              stroke={graphColors.color1}
               fillOpacity={0.7}
-              fill={variables.graphColor1}
+              fill={graphColors.color1}
             />
             <Area
               type="monotone"
               dataKey="pv"
               name="Movie 2"
-              stroke={variables.graphColor2}
+              stroke={graphColors.color2}
               fillOpacity={0.5}
-              fill={variables.graphColor2}
+              fill={graphColors.color2}
             />
           </AreaChart>
         </ResponsiveContainer>

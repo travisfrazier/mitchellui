@@ -19,11 +19,3 @@ $color-button: #2359ce;
 $color-meter: #d6d6d6;
 $graph-color1: #adadad;
 $graph-color2: #209787;
-
-//Graph Colors ---------- //
-$graph-color1: #adadad;
-$graph-color2: #209787;
-:export {
-  graphColor1: $graph-color1;
-  graphColor2: $graph-color2;
-}

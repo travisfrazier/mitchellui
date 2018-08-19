@@ -2,7 +2,7 @@ import React from 'react'
 import './_total-sales.scss'
 import Graph from '../graph/graph'
 import OrderCount from '../order-count/order-count'
-import variables from '../../pages/partials/_variables.scss'
+import graphColors from '../../pages/partials/_graph-colors'
 
 const TotalSales = props => (
   <section className="totSales">
@@ -24,13 +24,13 @@ const TotalSales = props => (
         <OrderCount
           title="Movie 1"
           total="2,346"
-          color={variables.graphColor1}
+          color={graphColors.color1}
           width="40%"
         />
         <OrderCount
           title="Movie 2"
           total="4,422"
-          color={variables.graphColor2}
+          color={graphColors.color2}
           width="60%"
         />
       </div>
